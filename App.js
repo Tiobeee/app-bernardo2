@@ -30,8 +30,8 @@ export default function App() {
         <ImageViewer placeholderImageSource={PlaceholderImage} selectedImage={selectedImage} />
       </View>
       <View style={styles.footerContainer}>
-        <Button theme="primary" label="Choose a photo" onPress={pickImageAsync} />
-        <Button label="Use this photo" />
+        <Button theme="primary" label="Escolha sua foto" onPress={pickImageAsync} />
+        <Button label="Usar tal foto" />
       </View>
       <StatusBar style="auto" />
     </View>
@@ -41,7 +41,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#25292e',
+    backgroundColor: '#401a87',
     alignItems: 'center',
   },
   imageContainer: {
